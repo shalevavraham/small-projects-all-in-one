@@ -1,0 +1,101 @@
+/* עיצוב כללי */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* עיצוב הקונטיינר הראשי */
+  .qr-app {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* כותרת */
+  .qr-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* עיצוב שדה הקלט */
+  .qr-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* כפתורים */
+  .qr-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .qr-button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .qr-button:hover {
+    background: #0056b3;
+  }
+  
+  .qr-share-button {
+    background: #28a745;
+  }
+  
+  .qr-share-button:hover {
+    background: #218838;
+  }
+  
+  /* עיצוב בחירת צבע */
+  .qr-color-picker {
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* עיצוב בחירת גודל */
+  .qr-size-selector {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* תצוגת ה-QR Code */
+  .qr-preview {
+    margin-top: 20px;
+  }
+  
+  .qr-code-container {
+    display: inline-block;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .qr-placeholder {
+    color: #777;
+    font-size: 14px;
+  }
+  

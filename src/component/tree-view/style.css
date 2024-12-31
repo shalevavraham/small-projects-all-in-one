@@ -1,0 +1,38 @@
+.tree-view-container {
+    min-height: 100vh;
+    width: 350px;
+    background: rgb(0, 71, 110);
+  }
+  
+  .menu-item{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+      color: #fff;
+  }
+  
+  .menu-list-container {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #d3daeb;
+    transition: max-height 0.3s ease-out; /* אנימציה של הרחבה/כיווץ */
+    overflow: hidden;
+  }
+
+  .menu-list-container.open {
+    max-height: 500px; /* או הגודל שאתה רוצה שהתפריט המורחב יגיע אליו */
+  }
+  
+  .menu-list-container.closed {
+    max-height: 0;
+  }
+
+  .tree-view-container input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }

@@ -1,0 +1,84 @@
+/* עיצוב ה-SearchBar שיהיה תמיד למעלה */
+.search-bar {
+    /* position: fixed; */
+    width: 200px;
+    height: 100vh;
+    top: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-button,
+.projects-button {
+    margin-left: 10px;
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.home-button:hover,
+.projects-button:hover {
+    background-color: #0056b3;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-list li {
+    margin: 10px 0;
+}
+
+.projects-list a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.projects-list a:hover {
+    background-color: #0056b3;
+}
+
+/* עיצוב דף הבית */
+.home {
+    text-align: center;
+}
+
+/* עיצוב דף הפרויקטים */
+.projects {
+    text-align: center;
+}
+
+.project-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.project-page h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
